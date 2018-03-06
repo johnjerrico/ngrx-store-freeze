@@ -4,7 +4,7 @@
   "description": "@ngrx/store meta reducer that prevents state from being mutated. (rewriten dependencies for ng-metada)",
   "module": "index.js",
   "es2015": "es6/index.js",
-  "main": "bundles/ngrx-store-freeze.umd.js",
+  "main": "./bundles/ngrx-store-freeze.umd.js",
   "scripts": {
     "clean:pre": "rimraf dist",
     "clean:post": "rimraf \"src/**/*.ngfactory.ts\"",
@@ -49,6 +49,7 @@
     "awesome-typescript-loader": "^3.5.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.3",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "copy-cli": "^1.2.1",
     "core-js": "^2.4.1",
